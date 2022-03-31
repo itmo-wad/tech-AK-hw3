@@ -6,4 +6,4 @@ Install dependencies at first via ``pip install Flask`` and then run web server 
 Also make sure that a MongoDB listens on localhost at default port.
 
 ## Description
-This project stores the profile information of each user and shows it to them after they have authenticated. New users can be created at any time.
+This project shows a public feed. Users can only post own messages (picture and messages) if they are authenticated. New users can be created at any time. User's profile information (in particular name and profile photo) are displayed for each post.
