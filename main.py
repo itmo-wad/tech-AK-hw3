@@ -11,7 +11,7 @@ app.config['UPLOAD_FOLDER'] = config.UPLOAD_FOLDER
 mongo = PyMongo(app)
 
 global_vars.init(app_ref=app, mongo_ref=mongo)
-
+import sites.auth, sites.feed, sites.profile, sites.signup
 
 @app.route('/')
 def main():
